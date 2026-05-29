@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H A N N A H - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">H A N N A H</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's Talk</button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>H A N N A H</h1>
+                <div class="job-title">Frontend Developer</div>
+                <p class="tagline">Crafting modern, responsive interfaces and delightful user experiences</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View Projects</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+                </div>
+                <div class="hero-socials">
+                    <div class="social-icon" title="GitHub"><a href="https://github.com/HannahElsayed" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+                    <div class="social-icon" title="LinkedIn"><a href="https://www.linkedin.com/in/hanna-elsaied/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></div>
+                    <div class="social-icon" title="Instagram"><a href="https://www.instagram.com/ehana0128/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="H A N N A H.jpeg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-bio">
+                    I'm a passionate frontend developer with a strong focus on building modern, responsive interfaces. I blend thoughtful design with performant engineering to create products that users love. With expertise in React, Next.js, and modern web technologies, I deliver clean, scalable solutions.
+                </p>
+                <div class="skills-tags">
+                  <div class="grid">    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span></div>
+               <div class="grid"><span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Web Design</span></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+    <div class="section-container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                <h4>React</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <h4>HTML5</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-css3"></i></div>
+                <h4>CSS3</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h4>Next.js</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                <h4>Design</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                <h4>Figma</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h4>Responsive</h4>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                <h4>Tools</h4>
+            </div>
+            <!-- NEW 10th card — change to whatever skill you want -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                <h4>Git</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="web hannah.PNG" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">Modern e-commerce platform built with React and Next.js featuring responsive design and smooth animations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" title="GitHub"><i class="fab fa-github"></i></button>
+                            <button class="project-link-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-12-15 153818.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX</div>
+                        <h3 class="project-title">Design System</h3>
+                        <p class="project-description">Comprehensive design system with reusable components and detailed documentation for consistent UI development.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">Design</span>
+                            <span class="project-tag">Components</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" title="GitHub"><i class="fab fa-github"></i></button>
+                            <button class="project-link-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Screenshot 2026-02-17 143628.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web App</div>
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">Full-featured task management application with real-time updates and collaborative features for teams.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">PWA</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="project-link-btn" title="GitHub"><i class="fab fa-github"></i></button>
+                            <button class="project-link-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE SKILLS SECTION -->
+    <section class="core-skills">
+        <div class="section-container">
+            <div class="core-skills-text">
+                <h3>Core Skills Behind Every Project</h3>
+                <p>Each project represents my commitment to clean code, modern design patterns, and delivering exceptional user experiences. I combine technical excellence with creative problem-solving.</p>
+            </div>
+            <div class="core-skills-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Adobe XD</span>
+                <span class="skill-tag">UI/UX</span>
+                <span class="skill-tag">JavaFX</span>
+                <span class="skill-tag">Database</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Oracle</span>
+                <span class="skill-tag">Data Structures</span>
+                <span class="skill-tag">Java OOP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="contact-heading">
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">Ready to turn ideas into fast, responsive, and modern web experiences. Let's create something impactful together.</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-form">
+                    <h3>Ready to Create?</h3>
+                    <p>I'm always excited to work on new projects. Whether you need a modern website, responsive UI, or full frontend experience, let's build something users love.</p>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info-text">
+                            <label>Email</label>
+                            <p><a href="mailto:ehana0128@gmail.com" style="color: var(--text-white); text-decoration: none;">ehana0128@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-info-text">
+                            <label>Phone</label>
+                            <p><a href="tel:+201212464288" style="color: var(--text-white); text-decoration: none;">+20 121 246 4288</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-info-text">
+                            <label>Location</label>
+                            <p>Egypt, Alexandria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="contact-right-emoji">💌</div>
+                    <h4>Get In Touch</h4>
+                    <p>Response within 24 hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>H A N N A H</h4>
+                    <p>Frontend Developer passionate about building modern, responsive interfaces and delightful user experiences.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+           <div class="footer-col">
+            <h4>Follow</h4>
+            <div class="footer-socials">
+                <div class="footer-social-icon"><a href="https://github.com/HannahElsayed" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+                <div class="footer-social-icon"><a href="https://www.linkedin.com/in/hanna-elsaied/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></div>
+                <div class="footer-social-icon"><a href="https://instagram.com/hannahelsayed" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></div>
+                <div class="footer-social-icon"><a href="https://wa.me/201212464288" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a></div>
+            </div>
+        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 H A N N A H. All rights reserved. Built with ❤️ using HTML, CSS & JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>  
+</body>
+</html>
