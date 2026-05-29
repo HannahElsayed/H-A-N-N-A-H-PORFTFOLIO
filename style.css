@@ -56,7 +56,7 @@
 
         .nav-logo {
             font-family: 'Syne', sans-serif;
-            font-size: 1.6rem;
+            font-size: large;
             font-weight: 800;
             background: linear-gradient(135deg, #e91e8c, #ff6ba6);
             -webkit-background-clip: text;
